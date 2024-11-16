@@ -1,0 +1,300 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif; /* Use a clean font */
+    background-color: #f4f6f8; /* Soft background color */
+    color: #333; /* Dark text for readability */
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #2980b9; /* Blue background */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 4px solid #2c3e50; /* Adds a border at the bottom */
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #34495e; /* Darker color for the nav */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Spacing between links */
+  }
+  
+  nav ul li a {
+    color: #ecf0f1; /* Light color for links */
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase; /* Makes the text capitalized */
+    padding: 8px 16px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  nav ul li a:hover {
+    background-color: #2980b9; /* Highlight on hover */
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Main Sections */
+  section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1100px; /* Restrict the width for readability */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2980b9;
+    text-align: center;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.7;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  ul li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  /* Media Queries (Responsive Design) */
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column; /* Stack links vertically on smaller screens */
+      gap: 10px;
+    }
+  
+    section {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    header h1 {
+      font-size: 2.2rem;
+    }
+  }
+  
+  /* Button Style for Contact/Project Links */
+  button {
+    background-color: #2980b9;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3498db;
+  }
+  
+  /* Adding a Smooth Hover Effect */
+  a {
+    text-decoration: none;
+    color: #2980b9;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #3498db;
+  }
+  
+  /* Section Headers */
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #2980b9;
+  }
+  
+  /* Special Section Style */
+  #about {
+    background-color: #ecf0f1;
+  }
+  
+  #skills, #projects {
+    background-color: #fff;
+  }
+  
+  /* Section Styling */
+section {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Style */
+  section h2 {
+    font-size: 2.5rem;
+    color: #2980b9; /* Blue color */
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Text Styling */
+  section p, section ul {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  section ul {
+    list-style: inside;
+    margin-left: 20px;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+  }
+  
+  /* Interactive Button/CTA Style (for Experience or Projects section) */
+  .cta-button {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #3498db;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    section {
+      margin: 10px 0;
+      padding: 20px;
+    }
+  
+    section h2 {
+      font-size: 2rem;
+    }
+  
+    section p, section ul {
+      font-size: 1rem;
+    }
+  }
+  /* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2.5rem;
+    color: #2980b9;
+    margin-bottom: 30px;
+  }
+  
+  /* Container for Contact Items */
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Individual Contact Item */
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .contact-item img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .contact-item p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .contact-item a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Hover Effect */
+  .contact-item:hover {
+    background-color: #2980b9;
+    color: #fff;
+  }
+  
+  .contact-item:hover img {
+    filter: brightness(0) invert(1);
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
